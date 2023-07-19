@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #0093e9;
+        background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 500px;
+        width: 900px;
+        background-image: url(./images/illustration-header.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+      }
+      .rigthBox {
+        width: 50%;
+      }
+      .leftBox {
+        width: 50%;
+        background-color: rgb(56, 13, 51);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+      .leftBox h1{
+        color: white;
+        padding: 30px;
+        margin-top: 20px;
+      }
+      .leftBox p{
+        color: white;
+        padding: 0px 30px;
+      }
+      .updates{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 30px;
+      }
+      .update1{
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .leftBox:hover{
+        filter: grayscale(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="leftBox">
+          <h1>Get Insights that help your business grow</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+            eaque, maiores quo expedita non commodi officia! Pariatur explicabo
+            voluptates deserunt. Rem enim fuga cumque labore architecto?
+            Voluptatum, expedita.
+          </p>
+          <div class="updates">
+            <div><p class="update1">10K+</p>
+            <p>Comments</p></div>
+            <div><p class="update1">214</p>
+            <p>Paid Users</p></div>
+            <div><p class="update1">12M+</p>
+            <p>Views</p></div>
+          </div>
+        </div>
+        <div class="rightBox"></div>
+      </div>
+    </div>
+  </body>
+</html>
